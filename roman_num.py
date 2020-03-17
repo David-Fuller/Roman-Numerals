@@ -9,5 +9,5 @@ def convert_roman(input_number):
 			input_number -= (t * rn_number)
 	return result
 
-input_number = int(input("Enter a number you wish to convert to roman numerals:- "))
+input_number = int(input("Enter a number you wish to convert to roman numerals: "))
 print(convert_roman(input_number))
